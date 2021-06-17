@@ -1,3 +1,7 @@
+<p align="center">
+	<img src="https://user-images.githubusercontent.com/52416718/122469278-0daad480-cfbd-11eb-93e1-8277fb90d4ab.png" alt="React Spring Rocket Logo" />
+</p>
+
 # React Spring Rocket
 
 A simple rocket. Made with React Spring.
