@@ -2,6 +2,7 @@
 	"name": "react-spring-rocket",
 	"version": "0.0.0",
 	"private": true,
+	"homepage": "./",
 	"scripts": {
 		"prepare": "husky install",
 		"start": "react-scripts start",
@@ -43,7 +44,10 @@
 		],
 		"plugins": [
 			"prettier"
-		]
+		],
+		"rules": {
+			"prettier/prettier": "warn"
+		}
 	},
 	"browserslist": {
 		"production": [

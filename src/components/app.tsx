@@ -1,3 +1,5 @@
+import { RocketPage } from './rocket-page';
+
 export function App() {
-	return <div>App</div>;
+	return <RocketPage />;
 }
