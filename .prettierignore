@@ -1,0 +1,10 @@
+node_modules
+node_modules_overrides
+coverage
+release
+build
+docs
+.vscode
+.idea
+package-lock.json
+CHANGELOG.md
