@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# React Spring Rocket
+
+A simple rocket. Made with React Spring.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -46,6 +48,9 @@ Many thanks to [Jerry Low](https://therealjerrylow.com/) for the awesome rocket 
 Please also check out his content:
 https://therealjerrylow.com/
 https://www.iconfinder.com/jerrylow
+
+Please also take a look here:
+https://codesandbox.io/s/initial-rocket-vi1tn
 
 ## Learn More
 
