@@ -1,8 +1,14 @@
 {
 	"name": "react-spring-rocket",
+	"description": "A simple rocket. Made with React Spring.",
 	"version": "0.0.0",
+	"license": "MIT",
 	"private": true,
 	"homepage": "./",
+	"engines": {
+		"node": ">=14",
+		"npm": ">=7"
+	},
 	"scripts": {
 		"prepare": "husky install",
 		"start": "react-scripts start",
@@ -13,6 +19,24 @@
 		"lint": "eslint src/**/*{.ts,.tsx,.js,.jsx} --ignore-pattern node_modules/ --no-error-on-unmatched-pattern",
 		"eject": "react-scripts eject"
 	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/fussel178/react-spring-rocket.git"
+	},
+	"bugs": {
+		"url": "https://github.com/fussel178/react-spring-rocket/issues"
+	},
+	"author": {
+		"name": "fussel178",
+		"email": "richter@fliegwerk.com"
+	},
+	"contributors": [
+		{
+			"name": "Pablo Klaschka",
+			"email": "contact@pabloklaschka.de",
+			"url": "https://github.com/pklaschka"
+		}
+	],
 	"dependencies": {
 		"@react-spring/web": "^9.2.3",
 		"react": "^17.0.2",
