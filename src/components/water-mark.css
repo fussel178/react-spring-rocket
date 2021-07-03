@@ -3,7 +3,6 @@
 	bottom: 0;
 	right: 0;
 	padding: 16px;
-	pointer-events: none;
 
 	display: flex;
 	flex-direction: row;
