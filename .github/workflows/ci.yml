@@ -14,14 +14,8 @@ jobs:
         uses: actions/setup-node@v2.2.0
         with:
           node-version: 14
+          cache: 'npm'
 
-      - name: Restore npm cache ♻️
-        uses: actions/cache@v2.1.6
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
       # Remove, when setup-node action supports specifying the node version
       - name: Install npm v7 ⬆
         run: npm install --global npm@v7
@@ -43,14 +37,8 @@ jobs:
         uses: actions/setup-node@v2.2.0
         with:
           node-version: 14
+          cache: 'npm'
 
-      - name: Restore npm cache ♻️
-        uses: actions/cache@v2.1.6
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
       # Remove, when setup-node action supports specifying the node version
       - name: Install npm v7 ⬆
         run: npm install --global npm@v7
