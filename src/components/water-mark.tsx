@@ -1,4 +1,4 @@
-import Logo from '../assets/logo.svg';
+import { ReactComponent as Logo } from '../assets/logo.svg';
 import './water-mark.css';
 
 export function WaterMark() {
@@ -32,7 +32,7 @@ export function WaterMark() {
 				.*/}
 			</div>
 			<div>
-				<img src={Logo} alt="WüSpace e. V. Logo" />
+				<Logo />
 			</div>
 		</div>
 	);
